@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-universal-css-prop",
+  "version": "0.1.0-alpha.0",
+  "description": "Converts the `css` prop to a function call inside of `className`.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "scripts": {
+    "test": "node test.js",
+    "format": "prettier --single-quote --no-semi --write *.js"
+  },
+  "keywords": [],
+  "author": "Giuseppe Gurgone",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.1.0",
+    "@babel/plugin-syntax-jsx": "7.0.0",
+    "@babel/preset-env": "7.1.0",
+    "prettier": "^1.14.3"
+  }
+}
